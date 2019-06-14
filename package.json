@@ -1,0 +1,24 @@
+{
+  "name": "mobishopapi",
+  "version": "1.0.0",
+  "description": "NodeProxyAPI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config mobiapi.js",
+    "dev": "nodemon -r dotenv/config mobiapi.js"
+  },
+  "keywords": [],
+  "author": "Alex Muturi <alex.muturi@chanansystems.co.ke> (https://chanansystems.co.ke)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cookie-parser": "1.4.4",
+    "express": "^4.16.4",
+    "helmet": "3.18.0",
+    "serve-favicon": "2.5.0",
+    "woocommerce-api": "1.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
